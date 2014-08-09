@@ -1,11 +1,11 @@
 {
     "certusquartz": {
         "template": "uniform",
-		"block": [
+        "block": [
             "appliedenergistics2:tile.OreQuartz",
             "appliedenergistics2:tile.OreQuartzCharged"
         ],
-		"metadata": [
+        "metadata": [
             0,
             0
         ],

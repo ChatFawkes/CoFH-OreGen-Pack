@@ -2,7 +2,7 @@
     "copper": {
         "template": "normal",
         "block": "ThermalFoundation:Ore",
-		"metadata": 0,
+        "metadata": 0,
         "clusterSize": 11,
         "numClusters": 6,
         "meanHeight": 58,
@@ -19,7 +19,7 @@
 	"tin": {
         "template": "normal",
         "block": "ThermalFoundation:Ore",
-		"metadata": 1,
+        "metadata": 1,
         "clusterSize": 10,
         "numClusters": 6,
         "meanHeight": 37,
@@ -89,8 +89,8 @@
     },
     "nickel": {
         "template": "uniform",
-		"block": "ThermalFoundation:Ore",
-		"metadata": 4,
+        "block": "ThermalFoundation:Ore",
+        "metadata": 4,
         "clusterSize": 6,
         "numClusters": 3,
         "minHeight": 6,

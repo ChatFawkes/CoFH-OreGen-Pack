@@ -2,7 +2,7 @@
 	"ruby": {
         "template": "uniform",
         "block": "bluepower:ruby_ore",
-		"metadata": "0",
+        "metadata": "0",
         "clusterSize": 7,
         "numClusters": 3,
         "minHeight": 17,
@@ -19,7 +19,7 @@
 	"sapphire": {
         "template": "uniform",
         "block": "bluepower:sapphire_ore",
-		"metadata": "0",
+        "metadata": "0",
         "clusterSize": 7,
         "numClusters": 3,
         "minHeight": 33,
@@ -36,7 +36,7 @@
 	"amethyst": {
         "template": "uniform",
         "block": "bluepower:amethyst_ore",
-		"metadata": "0",
+        "metadata": "0",
         "clusterSize": 7,
         "numClusters": 3,
         "minHeight": 49,
@@ -48,12 +48,12 @@
         "dimensions": [
             -1,
             1
-		]
+        ]
     },
 	"zinc": {
         "template": "uniform",
         "block": "bluepower:zinc_ore",
-		"metadata": "0",
+        "metadata": "0",
         "clusterSize": 8,
         "numClusters": 14,
         "minHeight": 32,
