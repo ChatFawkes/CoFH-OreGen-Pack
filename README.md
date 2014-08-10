@@ -16,6 +16,7 @@ This is a set of configs that adds ores to CoFH World generation. All files from
 - Sapphire
 - Amethyst
 - Peridot
+- Yellorite
 - Vanilla Ores
 
 ##Planned support:
