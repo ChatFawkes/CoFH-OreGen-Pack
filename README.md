@@ -23,7 +23,5 @@ This is a set of configs that adds ores to CoFH World generation. All files from
 
 ##Planned support:
 - Uranium
-- Teslatite
-- Tungsten
 
 (Might do more upon request)
