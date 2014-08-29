@@ -1,8 +1,10 @@
 {
     "aluminum": {
         "template": "uniform",
-        "block": "TConstruct:SearedBrick",
-        "metadata": 5,
+        "block": {
+            "name": "TConstruct:SearedBrick",
+            "metadata": 5
+        },
         "clusterSize": 4,
         "numClusters": 11,
         "minHeight": 44,

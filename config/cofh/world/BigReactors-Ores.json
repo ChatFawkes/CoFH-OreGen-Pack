@@ -1,7 +1,10 @@
 {
     "yellorite": {
         "template": "normal",
-        "block": "BigReactors:YelloriteOre",
+        "block": {
+            "name": "BigReactors:YelloriteOre",
+            "metadata": 0
+        },
         "clusterSize": 10,
         "numClusters": 3,
         "meanHeight": 6,

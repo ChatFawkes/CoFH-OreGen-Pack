@@ -1,8 +1,10 @@
 {
-	"ruby": {
+    "ruby": {
         "template": "uniform",
-        "block": "ProjRed|Exploration:projectred.exploration.ore",
-        "metadata": "0",
+        "block": {
+            "name": "ProjRed|Exploration:projectred.exploration.ore",
+            "metadata": 0
+        },
         "clusterSize": 7,
         "numClusters": 3,
         "minHeight": 17,
@@ -16,10 +18,12 @@
             1
         ]
     },
-	"sapphire": {
+    "sapphire": {
         "template": "uniform",
-        "block": "ProjRed|Exploration:projectred.exploration.ore",
-        "metadata": "1",
+        "block": {
+            "name": "ProjRed|Exploration:projectred.exploration.ore",
+            "metadata": 1
+        },
         "clusterSize": 7,
         "numClusters": 3,
         "minHeight": 33,
@@ -33,10 +37,12 @@
             1
         ]
     },
-	"peridot": {
+    "peridot": {
         "template": "uniform",
-        "block": "ProjRed|Exploration:projectred.exploration.ore",
-        "metadata": "2",
+        "block": {
+            "name": "ProjRed|Exploration:projectred.exploration.ore",
+            "metadata": 2
+        },
         "clusterSize": 7,
         "numClusters": 3,
         "minHeight": 49,
