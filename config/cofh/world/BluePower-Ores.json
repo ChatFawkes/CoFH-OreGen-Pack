@@ -66,5 +66,39 @@
             -1,
             1
         ]
+    },
+    "tungsten": {
+        "template": "uniform",
+        "block": "bluepower:tungsten_ore",
+        "metadata": "0",
+        "clusterSize": 3,
+        "numClusters": 2,
+        "minHeight": 22,
+        "maxHeight": 44,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "teslatite": {
+        "template": "normal",
+        "block": "bluepower:teslatite_ore",
+        "metadata": "0",
+        "clusterSize": 6,
+        "numClusters": 4,
+        "meanHeight": 10,
+        "maxVariance": 8,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
     }
 }
