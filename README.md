@@ -22,6 +22,4 @@ This is a set of configs that adds ores to CoFH World generation. All files from
 - Vanilla Ores
 
 ##Planned support:
-- Uranium
-
-(Might do more upon request)
+- None
