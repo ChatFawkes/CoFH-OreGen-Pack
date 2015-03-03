@@ -1,0 +1,22 @@
+{
+    "overworld-osmium": {
+        "template": "uniform",
+        "block": {
+            "name": "Mekanism:OreBlock",
+            "metadata": 0
+        },
+        "clusterSize": 5,
+        "numClusters": 4,
+        "maxHeight": 32,
+        "minHeight": 0,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "PLAINS"}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    }
+}

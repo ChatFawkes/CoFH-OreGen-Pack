@@ -1,0 +1,128 @@
+{
+    "overworld-copper": {
+        "template": "uniform",
+        "block": {
+            "name": "ThermalFoundation:Ore",
+            "metadata": 0
+        },
+        "clusterSize": 5,
+        "numClusters": 3,
+        "maxHeight": 64,
+        "minHeight": 32,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "FOREST"}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "overworld-tin": {
+        "template": "uniform",
+        "block": {
+            "name": "ThermalFoundation:Ore",
+            "metadata": 1
+        },
+        "clusterSize": 5,
+        "numClusters": 3,
+        "maxHeight": 32,
+        "minHeight": 0,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "FOREST"}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "overworld-silver": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 80
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 20
+            }
+        ],
+        "clusterSize": 6,
+        "numClusters": 3,
+        "maxHeight": 64,
+        "minHeight": 32,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "JUNGLE"},
+            {"type": "dictionary", "entry": "SAVANNA"}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "overworld-lead": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 90
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 10
+            }
+        ],
+        "clusterSize": 6,
+        "numClusters": 3,
+        "maxHeight": 32,
+        "minHeight": 0,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "JUNGLE"},
+            {"type": "dictionary", "entry": "SAVANNA"}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "overworld-ferrous-shiny": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 4,
+                "weight": 90
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 5,
+                "weight": 10
+            }
+        ],
+        "clusterSize": 8,
+        "numClusters": 3,
+        "maxHeight": 256,
+        "minHeight": 64,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "MOUNTAIN"}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    }
+}

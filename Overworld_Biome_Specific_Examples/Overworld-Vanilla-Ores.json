@@ -1,0 +1,118 @@
+{
+    "overworld-coal": {
+        "template": "uniform",
+        "block": "coal_ore",
+        "material": "stone",
+        "clusterSize": 18,
+        "numClusters": 20,
+        "maxHeight": 256,
+        "minHeight": 0,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "MOUNTAIN"},
+            {"type": "dictionary", "entry": "HILLS"}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "overworld-iron": {
+        "template": "uniform",
+        "block": "iron_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 10,
+        "numClusters": 16,
+        "maxHeight": 256,
+        "minHeight": 48,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "MOUNTAIN"}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "overworld-gold": {
+        "template": "uniform",
+        "block": "gold_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 5,
+        "maxHeight": 72,
+        "minHeight": 32,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "name", "entry": "Mesa"},
+            {"type": "name", "entry": "Mesa Plateau"},
+            {"type": "name", "entry": "Mesa Plateau F"},
+            {"type": "name", "entry": "Mesa Plateau F M"},
+            {"type": "name", "entry": "Mesa Plateau M"},
+            {"type": "name", "entry": "Valley"}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "overworld-redstone": {
+        "template": "uniform",
+        "block": "redstone_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 5,
+        "numClusters": 5,
+        "maxHeight": 56,
+        "minHeight": 16,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "SANDY"},
+            {"type": "dictionary", "entry": "BEACH"}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "overworld-diamond": {
+        "template": "uniform",
+        "block": "diamond_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 2,
+        "maxHeight": 256,
+        "minHeight": 64,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "MOUNTAIN"}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "overworld-lapis": {
+        "template": "uniform",
+        "block": "lapis_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 6,
+        "numClusters": 4,
+        "maxHeight": 44,
+        "minHeight": 0,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "name", "entry": "Deep Ocean"},
+            {"type": "dictionary", "entry": "MAGICAL"}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    }
+}

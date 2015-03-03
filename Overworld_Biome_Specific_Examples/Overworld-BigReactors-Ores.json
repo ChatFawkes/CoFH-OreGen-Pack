@@ -1,0 +1,22 @@
+{
+    "overworld-yellorite": {
+        "template": "uniform",
+        "block": {
+            "name": "BigReactors:YelloriteOre",
+            "metadata": 0
+        },
+        "clusterSize": 10,
+        "numClusters": 5,
+        "maxHeight": 40,
+        "minHeight": 20,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "WASTELAND"}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    }
+}

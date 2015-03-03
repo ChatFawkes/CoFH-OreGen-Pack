@@ -7,15 +7,16 @@
         },
         "clusterSize": 7,
         "numClusters": 3,
-        "minHeight": 17,
-        "maxHeight": 32,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
+        "minHeight": 48,
+        "maxHeight": 96,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "MOUNTAIN"}
+        ],
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1
+            0
         ]
     },
     "sapphire": {
@@ -26,15 +27,16 @@
         },
         "clusterSize": 7,
         "numClusters": 3,
-        "minHeight": 33,
-        "maxHeight": 48,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
+        "minHeight": 48,
+        "maxHeight": 96,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "MOUNTAIN"}
+        ],
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1
+            0
         ]
     },
     "amethyst": {
@@ -45,15 +47,16 @@
         },
         "clusterSize": 7,
         "numClusters": 3,
-        "minHeight": 49,
-        "maxHeight": 64,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
+        "minHeight": 48,
+        "maxHeight": 96,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "MOUNTAIN"}
+        ],
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1
+            0
         ]
     },
     "zinc": {
@@ -63,16 +66,17 @@
             "metadata": 0
         },
         "clusterSize": 8,
-        "numClusters": 14,
+        "numClusters": 5,
         "minHeight": 32,
         "maxHeight": 56,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "HILLS"}
+        ],
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1
+            0
         ]
     },
     "tungsten": {
@@ -85,13 +89,14 @@
         "numClusters": 2,
         "minHeight": 22,
         "maxHeight": 44,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "HILLS"}
+        ],
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1
+            0
         ]
     },
     "teslatite": {
@@ -104,13 +109,15 @@
         "numClusters": 4,
         "meanHeight": 10,
         "maxVariance": 8,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "SANDY"},
+            {"type": "dictionary", "entry": "BEACH"}
+        ],
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1
+            0
         ]
     }
 }

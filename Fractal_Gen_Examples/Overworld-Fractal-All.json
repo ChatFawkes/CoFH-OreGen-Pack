@@ -1,0 +1,35 @@
+{
+    "fractal-ocean-mix": {
+        "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+        "block": [
+            {"name": "minecraft:iron_ore", "metadata": 0, "weight": 30},
+            {"name": "ThermalFoundation:Ore", "metadata": 0, "weight": 30},
+            {"name": "ThermalFoundation:Ore", "metadata": 1, "weight": 30},
+            {"name": "minecraft:gold_ore", "metadata": 0, "weight": 20},
+            {"name": "Mekanism:OreBlock", "metadata": 0, "weight": 15},
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 15},
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 15},
+            {"name": "TConstruct:SearedBrick", "metadata": 5, "weight": 15},
+            {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 10},
+            {"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 5},
+            {"name": "minecraft:diamond_ore", "metadata": 0, "weight": 5}
+        ],
+        "clusterSize": 8,
+        "numClusters": 120,
+        "chunkChance": 160,
+        "minHeight": 0,
+        "veinHeight": 40,
+        "veinDiameter": 48,
+        "verticalDensity": 15,
+        "horizontalDensity": 15,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "OCEAN"}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    }
+}

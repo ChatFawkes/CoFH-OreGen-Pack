@@ -1,15 +1,15 @@
 {
-    "yellorite": {
+    "osmium": {
         "template": "normal",
         "block": {
-            "name": "BigReactors:YelloriteOre",
+            "name": "Mekanism:OreBlock",
             "metadata": 0
         },
-        "clusterSize": 10,
-        "numClusters": 3,
-        "meanHeight": 6,
-        "maxVariance": 6,
-        "retrogen": "true",
+        "clusterSize": 8,
+        "numClusters": 8,
+        "meanHeight": 16,
+        "maxVariance": 14,
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
